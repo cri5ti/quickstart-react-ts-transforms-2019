@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		"target": "ES2017",
+		"module": "esnext",
+		"jsx": "react",
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+//		"suppressExcessPropertyErrors": true,
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		"strictNullChecks": true,
+//		"noImplicitAny": true,
+//		"noImplicitReturns": true,
+		"baseUrl": "./src/",
+		"paths": {
+			"*": [
+				"./*"
+			]
+		}
+	},
+	"files": [
+		"src/index.ts"
+	],
+	"include": [
+		"src/**/*",
+		"typings/**/*"
+	],
+	"exclude": [
+		"src/_proto/_archive",
+		"node_modules"
+	]
+}
